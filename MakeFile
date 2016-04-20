@@ -1,0 +1,7 @@
+all:
+	python gpclose.py
+	python gpall.py
+	Rscript arima_ann.R
+
+clean:
+	rm *.png
